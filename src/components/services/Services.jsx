@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./services.css";
 const Services = () => {
   const [toggleState, setToggleState] = useState(0);
-
+  const modalRefs = [useRef(null), useRef(null), useRef(null)];
   useEffect(() => {
     const handleEsc = (event) => {
       if (event.keyCode === 27) {
@@ -11,13 +11,33 @@ const Services = () => {
         setToggleState(0); // Đặt toggleState về 0 để đóng modal
       }
     };
+    const handleClickOutside = (event, index) => {
+      if (
+        modalRefs[index].current &&
+        !modalRefs[index].current.contains(event.target)
+      ) {
+        setToggleState(0);
+      }
+    };
 
     window.addEventListener("keydown", handleEsc);
 
+    modalRefs.forEach((ref, index) => {
+      document.addEventListener("mousedown", (event) =>
+        handleClickOutside(event, index)
+      );
+    });
+
     return () => {
       window.removeEventListener("keydown", handleEsc);
+      modalRefs.forEach((ref, index) => {
+        document.removeEventListener("mousedown", (event) =>
+          handleClickOutside(event, index)
+        );
+      });
     };
   }, []);
+
   const toggleTab = (index) => {
     setToggleState(index);
   };
@@ -43,6 +63,7 @@ const Services = () => {
                 ? "services__modal active-modal"
                 : "services__modal"
             }
+            ref={modalRefs[0]}
           >
             <div className="services__modal-content">
               <i
@@ -93,6 +114,7 @@ const Services = () => {
                 ? "services__modal active-modal"
                 : "services__modal"
             }
+            ref={modalRefs[1]}
           >
             <div className="services__modal-content">
               <i
@@ -143,6 +165,7 @@ const Services = () => {
                 ? "services__modal active-modal"
                 : "services__modal"
             }
+            ref={modalRefs[2]}
           >
             <div className="services__modal-content">
               <i
