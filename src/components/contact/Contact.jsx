@@ -65,7 +65,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Phone / Zalo</h3>
               <span className="contact__card-data">0796692773</span>
               <a href="#home" className="contact__button">
-                Write me
+                Call me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>

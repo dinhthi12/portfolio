@@ -14,9 +14,9 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            "I am enthusiastic about acquiring knowledge and consistently
+            intrigued by novel concepts. I firmly believe that each day presents
+            an opportunity for personal enhancement."
           </p>
 
           <a download="" href={CV} className="button button--flex">

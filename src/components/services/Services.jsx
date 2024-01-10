@@ -44,14 +44,14 @@ const Services = () => {
 
   return (
     <div className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What i offer</span>
+      <h2 className="section__title">In the future</h2>
+      <span className="section__subtitle">I will try to</span>
 
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil services__icon"></i>
-            <h3 className="services__title">ABC</h3>
+            <i className="uil uil-lightbulb-alt services__icon"></i>
+            <h3 className="services__title">engage in active learning</h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>
             view more
@@ -71,28 +71,28 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">ABC</h3>
+              <h3 className="services__modal-title">Active learning</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+                labore saepe esse harum.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
                 </li>
               </ul>
@@ -101,8 +101,8 @@ const Services = () => {
         </div>
         <div className="services__content">
           <div>
-            <i className="uil uil services__icon"></i>
-            <h3 className="services__title">ABC</h3>
+            <i className="uil uil-arrow services__icon"></i>
+            <h3 className="services__title">something awesome</h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
             view more
@@ -122,28 +122,28 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">ABC</h3>
+              <h3 className="services__modal-title">Awesome</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+                labore saepe esse harum.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
                 </li>
               </ul>
@@ -152,8 +152,8 @@ const Services = () => {
         </div>
         <div className="services__content">
           <div>
-            <i className="uil uil services__icon"></i>
-            <h3 className="services__title">ABC</h3>
+            <i className="uil uil-edit services__icon"></i>
+            <h3 className="services__title">engage in active challenge</h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
             view more
@@ -173,28 +173,28 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">ABC</h3>
+              <h3 className="services__modal-title">Active challenge</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+                labore saepe esse harum.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
                 </li>
               </ul>
